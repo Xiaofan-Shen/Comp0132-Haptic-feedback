@@ -1,0 +1,54 @@
+{
+    "name": "ViveTrsckerInput",
+    "maps": [
+        {
+            "name": "ViveTracker",
+            "id": "98c64667-d8ac-4d65-9cf0-f30c9db4af8d",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "5afe520b-bc0d-43c3-92d2-8ae70fe444b2",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "e634d22d-c88e-40eb-895f-2dba414ca569",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "50a674f7-fa23-4b34-b459-fea447b17b99",
+                    "path": "<XRViveTracker>{Camera}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f200a28c-8d36-4fad-abb9-4be39a72653c",
+                    "path": "<XRViveTracker>{Camera}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
